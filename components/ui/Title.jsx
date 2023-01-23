@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Title = ({content,className}) => {
+const Title = ({content,addClass}) => {
   return (
-    <div className={className}>{content}</div>
+    <div className={`${addClass} font-dancing font-bold text-black` }>{content}</div>
   )
 }
 

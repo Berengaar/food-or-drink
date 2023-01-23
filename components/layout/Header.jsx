@@ -6,7 +6,7 @@ import Search from "../ui/Search";
 const Header = () => {
   const [isSearchModal, setIsSearchModal] = useState(true);
   return (
-    <div className="bg-primary border h-[5.5rem]  mx-auto text-white">
+    <div className="bg-primary border h-[5.5rem] mx-auto">
       <div className=" container mx-auto flex justify-between h-full items-center">
         <div>
           <Logo />
@@ -14,22 +14,22 @@ const Header = () => {
         <div>
           <nav>
             <ul className="headerNavigation flex gap-6 uppercase ">
-              <li>
+              <li className="text-white">
                 <a href="">Home</a>
               </li>
-              <li>
+              <li className="text-white">
                 <a href="">Menu</a>
               </li>
-              <li>
+              <li className="text-white">
                 <a href="">About</a>
               </li>
-              <li>
+              <li className="text-white">
                 <a href="">Book Table</a>
               </li>
             </ul>
           </nav>
         </div>
-        <div className="headerIcons flex gap-4 items-center">
+        <div className="headerIcons flex gap-4 items-center text-white">
           <a href="#">
             <FaUserAlt />
           </a>
